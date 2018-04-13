@@ -17,7 +17,8 @@
     "watch": "cross-env NODE_ENV=test jest --watch"
   },
   "dependencies": {
-    "memory-streams": "^0.1.2"
+    "memory-streams": "^0.1.2",
+    "randombytes": "^2.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -53,7 +54,7 @@
     "setupFiles": [
       "jest-plugin-context/setup"
     ],
-    "collectCoverage":  true,
+    "collectCoverage": true,
     "coverageDirectory": "coverage",
     "coverageReporters": [
       "html",
